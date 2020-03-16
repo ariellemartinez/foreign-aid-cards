@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>East Asia and the Pacific</title>
+
+		<style type="text/css">
+		#container {
+        	height: 100%;
+      	}
+      	html, body {
+        	height: 100%;
+        	margin: 0;
+        	padding: 0;
+      	}
+		</style>
+	</head>
+	<body>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://world101.cfr.org/themes/custom/world101_bootstrap/components/asset-map-chart/chart/vendors/highchart-cfr-theme.js"></script>
+
+<div id="container"></div>
+
+
+
+		<script type="text/javascript">
+
+Highcharts.chart('container', {
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: ''
+    },
+    subtitle: {
+        text: ''
+    },
+    xAxis: {
+        categories: ['1946','1947','1948','1949','1950','1951','1952','1953','1954','1955','1956','1957','1958','1959','1960','1961','1962','1963','1964','1965','1966','1967','1968','1969','1970','1971','1972','1973','1974','1975','1976','1977','1978','1979','1980','1981','1982','1983','1984','1985','1986','1987','1988','1989','1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017'],
+		labels: {
+            step: 5
+        },
+        crosshair: true
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Amount of U.S. economic aid received (constant 2016 US$)'
+        }
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+	legend: {
+        enabled: false
+    },
+    series: [{
+        name: 'Amount of U.S. economic aid received (constant 2016 US$)',
+        data: [2957627255,9327042435,6151445906,10114189529,4927402804,5019764917,3232786129,2547964418,3357069149,7383034178,7071347154,6574014139,5275602192,5503067033,4369157439,4337278980,3841579416,4604928975,3804125671,4004304788,7053168932,5746359279,5517612749,5554951299,5004149666,5753679477,7101912056,5751957571,5185787062,2572696731,1776163518,1420092780,1115005553,979489673,1035141974,760198743,577212470,577418092,598809559,856952171,1110771177,1512551028,837256935,1202399191,1092920743,1094421397,848145056,754212909,515076061,877702548,522144075,840228537,693226846,1142498128,1032916156,908468753,922200163,968537984,922810305,1050207411,1150811481,1200547919,1825093606,1113756617,1339367229,1886200705,1381996140,1928750259,1539481279,1208652869,1422764785,1301437081]
+
+    }]
+});
+		</script>
+	</body>
+</html>

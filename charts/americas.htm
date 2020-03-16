@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>The Americas</title>
+
+		<style type="text/css">
+		#container {
+        	height: 100%;
+      	}
+      	html, body {
+        	height: 100%;
+        	margin: 0;
+        	padding: 0;
+      	}
+		</style>
+	</head>
+	<body>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://world101.cfr.org/themes/custom/world101_bootstrap/components/asset-map-chart/chart/vendors/highchart-cfr-theme.js"></script>
+
+<div id="container"></div>
+
+
+
+		<script type="text/javascript">
+
+Highcharts.chart('container', {
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: ''
+    },
+    subtitle: {
+        text: ''
+    },
+    xAxis: {
+        categories: ['1946','1947','1948','1949','1950','1951','1952','1953','1954','1955','1956','1957','1958','1959','1960','1961','1962','1963','1964','1965','1966','1967','1968','1969','1970','1971','1972','1973','1974','1975','1976','1977','1978','1979','1980','1981','1982','1983','1984','1985','1986','1987','1988','1989','1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017'],
+		labels: {
+            step: 5
+        },
+        crosshair: true
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Amount of U.S. economic aid received (constant 2016 US$)'
+        }
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+	legend: {
+        enabled: false
+    },
+    series: [{
+        name: 'Amount of U.S. economic aid received (constant 2016 US$)',
+        data: [304941569,257441616,347299856,215360079,231866493,137717089,245844313,326637763,361949606,672783268,1560859547,1824302315,1098028155,1095236060,1019777317,2612375014,5334876949,5410718448,6115678099,4985461374,5288100320,3880008083,4257439575,2347250264,3076769434,2234652220,2196693442,1923221121,1425590462,1596838394,1806123208,1135770042,1173683467,1269409325,1294527080,1445728058,1859841648,2462451196,2493027234,3753818143,2893870415,3218169346,2441471641,2520511716,3265310844,2579124711,2147579941,1904952318,1320619724,1039027785,985080824,1095220865,1242449923,2899001434,2872150534,1664417031,2283195407,2688720635,2473546843,2785065022,3495323387,2223526058,2470725317,2796478194,4416654908,2769597238,2462918639,2084054911,2452629538,3825325626,1959612220,2297115978]
+
+    }]
+});
+		</script>
+	</body>
+</html>

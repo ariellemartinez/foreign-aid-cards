@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'Larsseit';
+	src: url(Type_Dynamic_Larsseit.woff) format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Larsseit';
+	src: url(Type_Dynamic_Larsseit_Bold.woff) format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Larsseit';
+	src: url(32E90B_0_0.eot);
+	src: url(32E90B_0_0.eot#iefix) format("embedded-opentype"), url(32E90B_0_0.woff2) format("woff2"), url(32E90B_0_0.woff) format("woff"), url(32E90B_0_0.ttf) format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Larsseit';
+	src: url(32E90B_1_0.eot);
+	src: url(32E90B_1_0.eot#iefix) format("embedded-opentype"), url(32E90B_1_0.woff2) format("woff2"), url(32E90B_1_0.woff) format("woff"), url(32E90B_1_0.ttf) format("truetype");
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Larsseit';
+	src: url(32E90B_2_0.eot);
+	src: url(32E90B_2_0.eot#iefix) format("embedded-opentype"), url(32E90B_2_0.woff2) format("woff2"), url(32E90B_2_0.woff) format("woff"), url(32E90B_2_0.ttf) format("truetype");
+	font-weight: 100;
+	font-style: normal;
+}
